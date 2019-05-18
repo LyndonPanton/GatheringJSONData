@@ -9,7 +9,10 @@ body, html {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
     margin-top: 20px;
+    min-width: 100%;
     padding: 10px 0px;
     background-color: black;
     color: orange;
