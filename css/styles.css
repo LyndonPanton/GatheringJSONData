@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0px;
+    background-color: black;
+    color: orange;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+table {
+    min-width: 100%;
+}
+
+table, td, th, tr {
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#getData {
+    margin: 10px 0px;
+    border: 1px red solid;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: purple;
+    font-size: 1.2em;
+    color: white;
+}
+
+#getData:active {
+    outline: none;
+    border-color: blue;
+    background-color: yellow;
+    color: black;
+}
+
+#getData:focus {
+    outline: none;
+    border-color: green;
+    background-color: cyan;
+    color: black;
+}
